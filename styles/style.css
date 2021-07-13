@@ -11,6 +11,9 @@ main{
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-color: #E5E5E5;;
+    margin-left: 270px;
+    margin-right: 277px;
 }
 hr{
     border: 1px solid #d1d1d1;
@@ -22,7 +25,7 @@ hr{
     background-color: #FFFFFF;
     width: 870px;
     padding: 30px;
-    margin-top: 21px;
+    margin-top: 0px;
     border-radius: 5px;
 }
 .section-title{
@@ -155,9 +158,9 @@ border-radius: [object Object]px;
     .course{
         align-items: center;
     }
-
     
- }
+} 
+ 
 /* tablet */
 @media only screen and (min-width:688px)and (max-width:992px) {
     .players{
@@ -173,7 +176,45 @@ border-radius: [object Object]px;
     
     
 }
+.menu{
+    width: 1440px;
+    height: 94px;
+    background-color: #562EFF;
+    display: flex;
+    
+    justify-content: space-between;
+    margin-bottom: 0px;
+    
+    
 
-
-
-
+    
+}
+.logo{
+    height: 51px;
+    width: 45px;
+    margin-top: 20px;
+}
+.an{
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+    top: 30px;
+    
+}
+.left{
+    margin-left: 260px;
+}
+.right{
+    margin-right: 270px;
+}
+header{
+    margin-left: 270px;
+}
+#mt{
+    margin-top: 21px;
+}
+@media only screen and (max-width:688) {
+       .menu{
+           width: 100%;
+       }    
+}
